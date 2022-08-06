@@ -43,6 +43,7 @@
     font-size: 20px;
     width:20%;
     height:50%;
+    cursor: pointer;
 }
 .nav-link:hover{
     background-color:rgb(71, 71, 71);
@@ -152,7 +153,6 @@ h2{
 .guitar button{
     display:block;
     margin:auto;
-    position:static;
     bottom:10px;
     width:40%;
     height:3em;
@@ -161,12 +161,18 @@ h2{
     justify-content: flex-end;
     font-weight: 800;
     font-size:16px;
+    cursor:pointer;
 }
 footer{
     margin-top:40px;
     height:40px;
     background-color:rgb(227, 224, 219);
     text-align: right;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+footer a{
+    text-decoration: none;
 }
 @media (max-width:1200px){
     .guitar{
